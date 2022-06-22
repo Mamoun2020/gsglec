@@ -59,6 +59,7 @@ void main(){
   String formatMiddleName(String mid){
     return ' '+mid[0].toUpperCase()+'. ';
   }
+  // use function to
   String? formatFullName(Function fun1,Function fun2,String fullName){
     List<String> name = fullName.split(' ');
     if(name.length !=3){
