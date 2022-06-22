@@ -10,7 +10,10 @@ void main(List<String> arguments) {
   num numberInteger = 5;
 // boolean data type and String
 bool isCheck = true;
-
+// dynamic type , dynamic name = 'ahmed'; name =5;
+  // var type we can't change type of data store in var,
+  // var name = 'mamoun';
+  // name = 5; error
 String name = 'Mamoun';
   print(name);
 // concatenate between 2 String
@@ -33,13 +36,13 @@ Map person = {
   'age' : 22,
   'GPA' : 90.0
 };
-// Generic type in Map
+// Generic type in Map , String key and object value (dynamic) because we don't know type of value
 Map<String,dynamic> student ={
   'name': 'Mamoun',
   'age' : 22,
   'GPA' : 90.0
 };
-
+// next lec, go to iterable file
 }
 
 /*
