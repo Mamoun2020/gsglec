@@ -53,13 +53,17 @@ void main(){
   }
   print(upperName);
   // convert a third name to upperCase from mamoun kamal abusalah to Mamoun K. Abusalah
+
+  // we need to 2 function
+  //to make first name and last name, first character upperCase
   String capitalizeFirstLetter(String name){
     return name[0].toUpperCase() + name.substring(1);
   }
+  // to make a middle name like this K.
   String formatMiddleName(String mid){
     return ' '+mid[0].toUpperCase()+'. ';
   }
-  // use function to
+  // to call name and two functions
   String? formatFullName(Function fun1,Function fun2,String fullName){
     List<String> name = fullName.split(' ');
     if(name.length !=3){
