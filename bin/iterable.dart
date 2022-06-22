@@ -1,5 +1,6 @@
 //Tips: to see output of this file, select file (iterable) then right click to run
 void main(){
+  // List and map extends from iterable class
   List<String> maleStudent = ['omar','hassan','saeed'];
   List<String> femaleStudent = ['sara','hanan','farah'];
   // add all elements from two lists in one list like this
@@ -14,4 +15,19 @@ void main(){
   // print Lists to see after that
   print(maleStudent);
   print(femaleStudent);
+
+  // Looping
+  // to print elements of list, we have a lot of way:
+  //for
+  for(int i =0; i<allStudent.length;i++){
+    print("index $i : "+allStudent[i]);
+  }
+  // use for in
+  for(String name in allStudent){
+    print("Student name is : "+name);
+  }
+  // use for each
+  allStudent.forEach((element) {
+    print('Student Name : $element');
+  });
 }
