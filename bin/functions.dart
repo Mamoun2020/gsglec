@@ -31,6 +31,13 @@ void main(){
   // }
   // to call it yourInfo('mamoun',age:22)
 
+  //so signe
+  /*
+  * 1. return type
+  * 2. function name
+  * 3. parameters
+  * 4. implementation
+  * */
   checkUser(UserType user){
     if(user == UserType.admin){
         print('hello,admin');
@@ -41,4 +48,7 @@ void main(){
     }
   }
   checkUser(UserType.admin);
+
+  // there are lambda function to make return in one statement
+  // int sum(int i, int y) => i +y;
 }
