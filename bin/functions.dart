@@ -67,7 +67,7 @@ void main(){
   // int Multi(int x,[int? y]){
   //   return x * (y ?? 1);
   // }
-  // third solution
+  //third solution
   int multi([int x = 5,int? y]){
     if(y == null){
       return x * 1;
