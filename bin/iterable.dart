@@ -76,8 +76,8 @@ void main(){
   }
   // call this function and print a new format name
   print(formatFullName(capitalizeFirstLetter,formatMiddleName, 'mamoun kamal abusalah'));
-
-  //go to map (like json format file) 3 class/level (Data,Department,Location)
+  // go to functions file
+  //then go to map (like json format file) 3 class/level (Data,Department,Location)
   Map<String, dynamic> data ={
     "data":{
       "name":"omar",

@@ -42,7 +42,13 @@ Map<String,dynamic> student ={
   'age' : 22,
   'GPA' : 90.0
 };
+//cast from type to type
+  double n = 2.2;
+  print(n.toInt());
+// operation to return int from division
+print(5.2 ~/ 2);
 // next lec, go to iterable file
+
 }
 
 /*
